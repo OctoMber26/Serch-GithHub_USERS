@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 375px;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navbar-brand{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(40, 23, 55);
+    margin-top: 100px;
+}
+
+.main{
+    width: 45%;
+    background-color: rgb(50, 50, 116);
+    border-radius: 10px;
+    margin: auto auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.general_info{
+    display: flex;
+
+}
+.date{
+    display: block;
+}
+
+ul li{
+  display: block;
+  margin-left: 20px;
+  margin-top: 15px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+.projects_info{
+    width: 400px;
+    background-color: rgb(140, 125, 155);
+    border-radius: 10px;
+    margin-left: 180px;
+}
+.project_section li{
+   display: inline-flex;
+   margin: 10px 30px;
+}
+
+.projects_numbers li{
+    display: inline-flex;
+   margin: 10px 50px;
+   margin-top: -30px;
+}
+
+.contact_info{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .main{
+        display: block;
+        width: 95%;
+        background-color: rgb(50, 50, 116);
+        border-radius: 10px;
+        
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .avatar{
+        display: block;
+        margin: auto auto;
+    }
+
+    ul li{
+        margin-left: 10px;
+        margin-top: 15px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+      .projects_info{
+          display: block;
+          width: 95%;
+        position: static;
+        background-color: rgb(140, 125, 155);
+        border-radius: 10px;
+        margin: auto auto;
+    }
+
+    .project_section li{
+        display: inline-flex;
+        margin: 10px 20px;
+     }
+
+     .projects_numbers li{
+        display: inline-flex;
+       margin: 1px 40px;
+       margin-top: -20px;
+    }
+    .contact_info{
+        margin-left:0;
+    }
+}
